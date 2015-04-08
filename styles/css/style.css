@@ -1,93 +1,60 @@
-/*
-Error: Invalid CSS after "  @if ($part": expected ")", was "='all') {"
-        on line 2 of styles/sass/var/_var.scss
-        from line 4 of styles/sass/style.scss
-
-1: @mixin border($part,$style,$color,$width) {
-2:   @if ($part='all') {
-3:     border: $style $color $width;
-4:   }
-5:   @if ($part='top') {
-6:     border-top: $style $color $width;
-7:   }
-
-Backtrace:
-styles/sass/var/_var.scss:2
-styles/sass/style.scss:4
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/lexer.rb:221:in `expected!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:580:in `assert_tok'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:515:in `paren'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:498:in `special_fun'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:492:in `raw'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:406:in `funcall'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:387:in `ident'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:246:in `unary_not'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:246:in `unary_div'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:246:in `unary_minus'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:246:in `unary_plus'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:227:in `times_div_or_mod'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:227:in `plus_or_minus'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:227:in `relational'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:227:in `eq_or_neq'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:227:in `and_expr'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:227:in `or_expr'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:361:in `space'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:345:in `interpolation'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:293:in `expr'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:571:in `assert_expr'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/script/parser.rb:62:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1027:in `sass_script'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:314:in `if_directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:219:in `special_directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:194:in `directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:231:in `mixin_directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:219:in `special_directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:194:in `directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:299:in `to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:407:in `run'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
-C:/Ruby22-x64/bin/sass:23:in `load'
-C:/Ruby22-x64/bin/sass:23:in `<main>'
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"  @if ($part\": expected \")\", was \"='all') {\"\A         on line 2 of styles/sass/var/_var.scss\A         from line 4 of styles/sass/style.scss\A \A 1: @mixin border($part,$style,$color,$width) {\A 2:   @if ($part='all') {\A 3:     border: $style $color $width;\A 4:   }\A 5:   @if ($part='top') {\A 6:     border-top: $style $color $width;\A 7:   }"; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body .page {
+  display: block;
+  width: 1600px;
+  max-width: 100%;
+  margin: 0 auto; }
+body .header {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background: url(../../img/header.png) no-repeat;
+  border-top: solid #2ecc71 10px; }
+
+/*# sourceMappingURL=style.css.map */
