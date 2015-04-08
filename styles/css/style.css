@@ -45,6 +45,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body .page {
+  display: block;
+  width: 1600px;
+  max-width: 100%;
+  margin: 0 auto; }
 body .header {
   display: block;
   width: 100%;

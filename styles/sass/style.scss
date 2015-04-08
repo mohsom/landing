@@ -2,6 +2,12 @@
 @import "big-screen";
 @import "small-screen";
 body{
+  .page{
+    display: block;
+    width: 1600px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
   .header{
     display: block;
     width: 100%;
