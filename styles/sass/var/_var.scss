@@ -1,3 +1,5 @@
+$green:#2ecc71;
+$base-font:"Helvetica",sans-serif;
 @mixin border($part,$style,$color,$width) {
   @if $part=='all' {
     border: $style $color $width;
