@@ -45,6 +45,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@media (min-width: 1200px) {
+  .header-block {
+    margin-left: 320px; } }
+@media (max-width: 1199px) {
+  .header-block {
+    margin: 0 auto; } }
 body {
   font-family: "Helvetica"; }
   body .page {
@@ -61,7 +67,8 @@ body {
     body .header .header-block {
       display: block;
       width: 460px;
-      margin-left: 320px;
+      max-width: 100%;
+      word-break: normal;
       margin-top: 170px; }
       body .header .header-block .title {
         font-family: 'Pacifico', cursive;
