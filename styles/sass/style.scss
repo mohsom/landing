@@ -2,7 +2,7 @@
 @import "big-screen";
 @import "small-screen";
 body{
-  &.header{
+  .header{
     display: block;
     width: 100%;
     height: 600px;
