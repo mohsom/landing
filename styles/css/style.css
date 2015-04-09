@@ -47,10 +47,16 @@ table {
 
 @media (min-width: 1200px) {
   .header-block {
-    margin-left: 320px; } }
+    margin-left: 320px; }
+
+  .feature-item {
+    margin: 40px; } }
 @media (max-width: 1199px) {
   .header-block {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .feature-item {
+    margin-bottom: 10px; } }
 body {
   font-family: "Helvetica"; }
   body .page {
@@ -111,7 +117,7 @@ body {
     max-width: 100%;
     background-color: white;
     min-height: 333px;
-    margin-top: 60px; }
+    margin-top: 20px; }
     body .features .features-block {
       display: block;
       text-align: center; }
