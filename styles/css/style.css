@@ -47,10 +47,16 @@ table {
 
 @media (min-width: 1200px) {
   .header-block {
-    margin-left: 320px; } }
+    margin-left: 320px; }
+
+  .feature-item {
+    margin: 60px auto; } }
 @media (max-width: 1199px) {
   .header-block {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .feature-item {
+    margin: 60px auto; } }
 body {
   font-family: "Helvetica"; }
   body .page {
@@ -115,6 +121,7 @@ body {
       display: inline-block;
       text-align: center;
       width: 360px;
+      margin: 60px auto;
       max-width: 100%; }
       body .features .feature-item .ftr-picture {
         display: block;
@@ -128,14 +135,19 @@ body {
         body .features .feature-item .ftr-picture i {
           margin-top: 25px; }
       body .features .feature-item .ftr-content {
-        display: block; }
+        display: block;
+        margin-top: 35px;
+        word-break: normal; }
         body .features .feature-item .ftr-content .ftr-title {
           width: 100%;
           color: #000000;
-          font-size: 20px; }
-        body .features .feature-item .ftr-content .ftr-content {
+          font-size: 20px;
+          display: block; }
+        body .features .feature-item .ftr-content .ftr-text {
+          display: block;
           width: 100%;
           color: #c3c3c3;
-          font-size: 20px; }
+          font-size: 15px;
+          margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
