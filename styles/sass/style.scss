@@ -1,4 +1,5 @@
 @import "../../bower_components/reset-scss/reset";
+@import "../../bower_components/normalize.css/normalize.css";
 @import "big-screen";
 @import "small-screen";
 @import "var/_var";
@@ -72,7 +73,7 @@ body {
     width: 1600px;
     max-width: 100%;
     background-color: white;
-    min-height: 333px;
+    min-height: 300px;
     margin-top: 30px;
     .features-block {
       display: block;
