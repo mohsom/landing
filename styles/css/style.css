@@ -50,7 +50,7 @@ table {
     margin-left: 320px; }
 
   .feature-item {
-    margin: 40px; } }
+    margin: 30px; } }
 @media (max-width: 1199px) {
   .header-block {
     margin: 0 auto; }
@@ -117,7 +117,7 @@ body {
     max-width: 100%;
     background-color: white;
     min-height: 333px;
-    margin-top: 20px; }
+    margin-top: 30px; }
     body .features .features-block {
       display: block;
       text-align: center; }
