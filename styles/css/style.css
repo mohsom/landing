@@ -48,10 +48,16 @@ table {
 
 @media (min-width: 1000px) {
   .logo {
-    margin-left: 135px; } }
+    margin-left: 135px; }
+
+  .signin {
+    padding-right: 130px; } }
 @media (max-width: 1000px) {
   .logo {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .signin {
+    padding-right: 0; } }
 body {
   font-family: "Open Sans", sans-serif; }
   body .body {
