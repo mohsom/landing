@@ -46,10 +46,73 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body .body {
-  display: block;
-  max-width: 1250px;
-  margin: 0 auto;
-  width: 100%; }
+@media (min-width: 1000px) {
+  .logo {
+    margin-left: 135px; } }
+@media (max-width: 1000px) {
+  .logo {
+    margin-left: 0; } }
+body {
+  font-family: "Open Sans", sans-serif; }
+  body .body {
+    display: block;
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%; }
+    body .body .header {
+      display: block;
+      width: 100%;
+      min-height: 60px;
+      background-color: #008fd5; }
+      body .body .header .logo {
+        display: inline-block;
+        margin-top: 15px; }
+      body .body .header .signin {
+        display: inline-block;
+        float: right;
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 15px; }
+        body .body .header .signin .but1 {
+          display: inline-block;
+          width: 70px;
+          height: 27px;
+          background-color: #1471b3;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          text-align: center;
+          vertical-align: middle;
+          z-index: 1;
+          margin-right: -10px; }
+          body .body .header .signin .but1 span {
+            padding-top: 5px;
+            display: block; }
+        body .body .header .signin .but2 {
+          display: inline-block;
+          color: #008fd5;
+          background-color: #1065a1;
+          height: 35px;
+          width: 35px;
+          border-radius: 35px;
+          text-align: center;
+          vertical-align: middle;
+          z-index: 2; }
+          body .body .header .signin .but2 span {
+            padding-top: 10px;
+            display: block; }
+        body .body .header .signin .but3 {
+          display: inline-block;
+          width: 70px;
+          height: 27px;
+          background-color: #1471b3;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          text-align: center;
+          vertical-align: middle;
+          z-index: 1;
+          margin-left: -10px; }
+          body .body .header .signin .but3 span {
+            padding-top: 5px;
+            display: block; }
 
 /*# sourceMappingURL=style.css.map */
