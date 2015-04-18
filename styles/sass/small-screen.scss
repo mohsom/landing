@@ -2,10 +2,19 @@
   .logo {
     margin-left: 0;
   }
-  .signin{
+  .signin {
     padding-right: 0;
   }
-  .subscribe{
+  .subscribe {
 
+  }
+  .awesome{
+    .img {
+      display: block;
+      width: 100%;
+      img{
+        max-width: 100%;
+      }
+    }
   }
 }

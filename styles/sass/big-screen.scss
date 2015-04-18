@@ -8,4 +8,14 @@
   .subscribe{
 
   }
+  .awesome{
+    height: 620px;
+    .img {
+      display:block;
+      position: absolute;
+      margin-top: -80px;
+      right: 0;
+      left: 0;
+    }
+  }
 }

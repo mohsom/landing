@@ -51,13 +51,28 @@ table {
     margin-left: 135px; }
 
   .signin {
-    padding-right: 130px; } }
+    padding-right: 130px; }
+
+  .awesome {
+    height: 620px; }
+    .awesome .img {
+      display: block;
+      position: absolute;
+      margin-top: -80px;
+      right: 0;
+      left: 0; } }
 @media (max-width: 1000px) {
   .logo {
     margin-left: 0; }
 
   .signin {
-    padding-right: 0; } }
+    padding-right: 0; }
+
+  .awesome .img {
+    display: block;
+    width: 100%; }
+    .awesome .img img {
+      max-width: 100%; } }
 body {
   font-family: "Open Sans", sans-serif; }
   body .body {
@@ -180,5 +195,10 @@ body {
             background-color: #82b74b;
             font-size: 20px;
             font-weight: 700; }
+    body .body .awesome {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: #e6eff6; }
 
 /*# sourceMappingURL=style.css.map */
