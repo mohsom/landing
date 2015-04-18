@@ -3,3 +3,12 @@
 @import "big-screen";
 @import "small-screen";
 @import "var/_var";
+
+body {
+  .body {
+    display: block;
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
