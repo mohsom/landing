@@ -63,7 +63,10 @@ table {
       left: 0; }
     .awesome .content {
       display: block;
-      padding-top: 440px; } }
+      padding-top: 440px; }
+
+  .about {
+    height: 480px; } }
 @media (max-width: 1000px) {
   .logo {
     margin-left: 0; }
@@ -235,5 +238,8 @@ body {
           body .body .awesome .content .button span {
             display: block;
             padding-top: 5px; }
+    body .body .about {
+      display: block;
+      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
