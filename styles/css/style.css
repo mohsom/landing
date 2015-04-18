@@ -69,10 +69,12 @@ table {
     display: block;
     height: 480px;
     margin-left: 135px; }
+    .about .ab-text {
+      width: 480px; }
     .about .img-block {
       display: block;
       float: right;
-      margin-right: 135px;
+      margin-right: 130px;
       margin-top: -285px; } }
 @media (max-width: 1000px) {
   .logo {
@@ -88,9 +90,12 @@ table {
       max-width: 100%; }
 
   .about {
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
     .about .img-block img {
-      max-width: 100%; } }
+      max-width: 100%; }
+    .about .button {
+      margin: 30px auto; } }
 body {
   font-family: "Open Sans", sans-serif; }
   body .body {
@@ -256,7 +261,6 @@ body {
       body .body .about .ab-text {
         display: block;
         margin-top: 85px;
-        width: 480px;
         max-width: 100%; }
         body .body .about .ab-text .ab-title {
           display: block;

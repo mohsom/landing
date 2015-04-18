@@ -19,10 +19,14 @@
   }
   .about{
     text-align: center;
+    width: 100%;
     .img-block{
       img{
         max-width: 100%;
       }
+    }
+    .button{
+      margin: 30px auto;
     }
   }
 }
