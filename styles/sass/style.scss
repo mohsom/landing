@@ -100,8 +100,7 @@ body {
         }
         img {
           display: block;
-          margin: 0 auto;
-          margin-top: 30px;
+          margin: 30px auto;
         }
       }
       .subs-form {
@@ -119,6 +118,7 @@ body {
           font-size: 13px;
           border: solid #d7dfe5 1px;
           padding-left: 15px;
+          vertical-align: middle;
         }
         .subs-subm {
           display: inline-block;
@@ -127,6 +127,8 @@ body {
           border-radius: 3px;
           background-color: #f5f6f7;
           border: solid #d7dfe5 1px;
+          margin-left: 10px;
+          vertical-align: middle;
           button {
             display: block;
             margin-top: 2px;
@@ -152,6 +154,7 @@ body {
       .content {
         display: block;
         width: 850px;
+        max-width: 100%;
         text-align: center;
         margin: 0 auto;
         .title {
@@ -166,6 +169,21 @@ body {
           color: #868c90;
           font-size: 13px;
           font-weight: 600;
+        }
+        .button{
+          display: block;
+          width: 107px;
+          height: 27px;
+          color: #ffffff;
+          text-align: center;
+          background-color: #1471b3;
+          border-radius: 27px;
+          cursor: pointer;
+          margin: 30px auto;
+          span{
+            display: block;
+            padding-top: 5px;
+          }
         }
       }
     }
