@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.css': ['styles/css/style.css']
+                    'build/styles/css/style.css': ['styles/css/style.css']
                 }
             }
         },
@@ -27,9 +27,9 @@ module.exports = function (grunt) {
             dynamic: {
                 files: [{
                     expand: true,
-                    cwd: 'images/',
+                    cwd: 'img/',
                     src: ['**/*.{png,jpg,gif,svg}'],
-                    dest: 'build/images'
+                    dest: 'build/img'
                 }]
             }
         },
