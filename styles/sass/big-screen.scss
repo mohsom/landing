@@ -38,7 +38,12 @@
     .img-block{
       display: block;
       float: right;
-      margin-right: 130px;
+      @media (max-width: 1110px) {
+        margin-right: 10px;
+      }
+      @media (min-width: 1110px) {
+        margin-right: 130px;
+      }
       margin-top: -285px;
     }
   }

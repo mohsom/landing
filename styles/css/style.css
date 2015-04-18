@@ -74,8 +74,14 @@ table {
     .about .img-block {
       display: block;
       float: right;
-      margin-right: 130px;
       margin-top: -285px; } }
+    @media (min-width: 1000px) and (max-width: 1110px) {
+      .about .img-block {
+        margin-right: 10px; } }
+    @media (min-width: 1000px) and (min-width: 1110px) {
+      .about .img-block {
+        margin-right: 130px; } }
+
 @media (max-width: 1000px) {
   .logo {
     margin-left: 0; }
