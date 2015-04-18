@@ -87,7 +87,6 @@ body {
           border-top-left-radius: 10px;
           border-bottom-left-radius: 10px;
           text-align: center;
-          vertical-align: middle;
           z-index: 1;
           margin-right: -10px; }
           body .body .header .signin .but1 span {
@@ -101,7 +100,6 @@ body {
           width: 35px;
           border-radius: 35px;
           text-align: center;
-          vertical-align: middle;
           z-index: 2; }
           body .body .header .signin .but2 span {
             padding-top: 10px;
@@ -114,11 +112,25 @@ body {
           border-top-right-radius: 10px;
           border-bottom-right-radius: 10px;
           text-align: center;
-          vertical-align: middle;
           z-index: 1;
           margin-left: -10px; }
           body .body .header .signin .but3 span {
             padding-top: 5px;
             display: block; }
+    body .body .subscribe {
+      display: block;
+      width: 100%;
+      min-height: 345px;
+      padding-top: 50px; }
+      body .body .subscribe .title {
+        display: block;
+        font-weight: 900;
+        font-size: 30px;
+        margin: 0 auto; }
+      body .body .subscribe .subtitle {
+        display: block;
+        margin: 0 auto;
+        font-weight: 600;
+        color: #1196d8; }
 
 /*# sourceMappingURL=style.css.map */
