@@ -122,15 +122,27 @@ body {
       width: 100%;
       min-height: 345px;
       padding-top: 50px; }
-      body .body .subscribe .title {
+      body .body .subscribe .text {
         display: block;
-        font-weight: 900;
-        font-size: 30px;
         margin: 0 auto; }
-      body .body .subscribe .subtitle {
-        display: block;
-        margin: 0 auto;
-        font-weight: 600;
-        color: #1196d8; }
+        body .body .subscribe .text .title {
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-weight: 900;
+          font-size: 30px;
+          margin-bottom: 25px;
+          color: #3c4348; }
+        body .body .subscribe .text .subtitle {
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-weight: 600;
+          font-size: 17px;
+          color: #1196d8; }
+        body .body .subscribe .text img {
+          display: block;
+          margin: 0 auto;
+          margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */

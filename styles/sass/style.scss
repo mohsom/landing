@@ -77,17 +77,31 @@ body {
       width: 100%;
       min-height: 345px;
       padding-top: 50px;
-      .title{
-        display: block;
-        font-weight: 900;
-        font-size: 30px;
-        margin: 0 auto;
-      }
-      .subtitle{
+      .text {
         display: block;
         margin: 0 auto;
-        font-weight: 600;
-        color: #1196d8;
+        .title {
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-weight: 900;
+          font-size: 30px;
+          margin-bottom: 25px;
+          color: #3c4348;
+        }
+        .subtitle {
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-weight: 600;
+          font-size: 17px;
+          color: #1196d8;
+        }
+        img{
+          display: block;
+          margin: 0 auto;
+          margin-top: 30px;
+        }
       }
     }
   }
