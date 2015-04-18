@@ -64,7 +64,8 @@ body {
     display: block;
     max-width: 1250px;
     margin: 0 auto;
-    width: 100%; }
+    width: 100%;
+    overflow: hidden; }
     body .body .header {
       display: block;
       width: 100%;
