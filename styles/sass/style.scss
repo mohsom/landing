@@ -170,7 +170,7 @@ body {
           font-size: 13px;
           font-weight: 600;
         }
-        .button{
+        .button {
           display: block;
           width: 107px;
           height: 27px;
@@ -180,16 +180,43 @@ body {
           border-radius: 27px;
           cursor: pointer;
           margin: 30px auto;
-          span{
+          span {
             display: block;
             padding-top: 5px;
           }
         }
       }
     }
-    .about{
+    .about {
       display: block;
       width: 100%;
+      .ab-text {
+        display: block;
+        margin-top: 85px;
+        width: 480px;
+        max-width: 100%;
+        .ab-title {
+          display: block;
+          font-size: 30px;
+          font-weight: 900;
+        }
+        .ab-text {
+          display: block;
+          color: #868c90;
+          font-size: 13px;
+          font-weight: 600;
+          margin-top: 40px;
+          line-height: 23px;
+        }
+        .ab-text1 {
+          margin-top: 40px;
+          display: block;
+          color: #868c90;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 23px;
+        }
+      }
     }
   }
 }

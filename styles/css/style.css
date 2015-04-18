@@ -66,7 +66,19 @@ table {
       padding-top: 440px; }
 
   .about {
-    height: 480px; } }
+    display: block;
+    width: 100%;
+    height: 480px;
+    margin-left: 135px; }
+    .about .ab-text {
+      display: block;
+      margin-top: 85px;
+      width: 480px;
+      max-width: 100%; }
+      .about .ab-text .ab-title {
+        display: block;
+        font-size: 30px;
+        font-weight: 900; } }
 @media (max-width: 1000px) {
   .logo {
     margin-left: 0; }
@@ -78,7 +90,10 @@ table {
     display: block;
     width: 100%; }
     .awesome .img img {
-      max-width: 100%; } }
+      max-width: 100%; }
+
+  .about {
+    text-align: center; } }
 body {
   font-family: "Open Sans", sans-serif; }
   body .body {
@@ -241,5 +256,28 @@ body {
     body .body .about {
       display: block;
       width: 100%; }
+      body .body .about .ab-text {
+        display: block;
+        margin-top: 85px;
+        width: 480px;
+        max-width: 100%; }
+        body .body .about .ab-text .ab-title {
+          display: block;
+          font-size: 30px;
+          font-weight: 900; }
+        body .body .about .ab-text .ab-text {
+          display: block;
+          color: #868c90;
+          font-size: 13px;
+          font-weight: 600;
+          margin-top: 40px;
+          line-height: 23px; }
+        body .body .about .ab-text .ab-text1 {
+          margin-top: 40px;
+          display: block;
+          color: #868c90;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 23px; }
 
 /*# sourceMappingURL=style.css.map */
