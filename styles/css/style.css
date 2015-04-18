@@ -82,6 +82,15 @@ table {
       .about .img-block {
         margin-right: 130px; } }
 
+@media (min-width: 1000px) {
+  .footer .copyr {
+    display: inline-block;
+    float: left;
+    margin-left: 135px; }
+  .footer .des {
+    display: inline-block;
+    float: right;
+    margin-right: 135px; } }
 @media (max-width: 1000px) {
   .logo {
     margin-left: 0; }
@@ -101,7 +110,14 @@ table {
     .about .img-block img {
       max-width: 100%; }
     .about .button {
-      margin: 30px auto; } }
+      margin: 30px auto; }
+
+  .footer {
+    text-align: center; }
+    .footer .copyr {
+      display: block; }
+    .footer .des {
+      display: block; } }
 body {
   font-family: "Open Sans", sans-serif; }
   body .body {
@@ -299,5 +315,16 @@ body {
           body .body .about .ab-text .button span {
             display: block;
             padding-top: 5px; }
+    body .body .footer {
+      display: block;
+      width: 100%;
+      height: 85px;
+      background-color: #ececec;
+      color: #9ba1a5;
+      font-size: 13px; }
+      body .body .footer .copyr {
+        margin-top: 40px; }
+      body .body .footer .des {
+        margin-top: 40px; }
 
 /*# sourceMappingURL=style.css.map */
