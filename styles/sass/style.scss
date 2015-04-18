@@ -172,19 +172,7 @@ body {
           font-weight: 600;
         }
         .button {
-          display: block;
-          width: 107px;
-          height: 27px;
-          color: #ffffff;
-          text-align: center;
-          background-color: #1471b3;
-          border-radius: 27px;
-          cursor: pointer;
-          margin: 30px auto;
-          span {
-            display: block;
-            padding-top: 5px;
-          }
+          @include button();
         }
       }
     }
@@ -217,19 +205,7 @@ body {
           line-height: 23px;
         }
         .button {
-          display: block;
-          width: 107px;
-          height: 27px;
-          color: #ffffff;
-          text-align: center;
-          background-color: #1471b3;
-          border-radius: 27px;
-          cursor: pointer;
-          margin-top: 30px;
-          span {
-            display: block;
-            padding-top: 5px;
-          }
+          @include button();
         }
       }
     }

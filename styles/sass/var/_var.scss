@@ -1,1 +1,16 @@
 $font:'Open Sans', sans-serif;
+@mixin button(){
+  display: block;
+  width: 107px;
+  height: 27px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #1471b3;
+  border-radius: 27px;
+  cursor: pointer;
+  margin: 30px auto;
+  span {
+    display: block;
+    padding-top: 5px;
+  }
+}
