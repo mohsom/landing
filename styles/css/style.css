@@ -60,7 +60,10 @@ table {
       position: absolute;
       margin-top: -80px;
       right: 0;
-      left: 0; } }
+      left: 0; }
+    .awesome .content {
+      display: block;
+      padding-top: 440px; } }
 @media (max-width: 1000px) {
   .logo {
     margin-left: 0; }
@@ -200,5 +203,21 @@ body {
       width: 100%;
       text-align: center;
       background-color: #e6eff6; }
+      body .body .awesome .content {
+        display: block;
+        width: 850px;
+        text-align: center;
+        margin: 0 auto; }
+        body .body .awesome .content .title {
+          display: block;
+          font-size: 30px;
+          color: #3c4348;
+          font-weight: 900; }
+        body .body .awesome .content .cnt-text {
+          display: block;
+          margin-top: 35px;
+          color: #868c90;
+          font-size: 13px;
+          font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
